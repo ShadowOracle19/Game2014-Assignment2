@@ -58,6 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets\C# Scirpts\PlayButtonBehvaiour.cs" />
     <Compile Include="Assets\C# Scirpts\InstructionButtonBehaviour.cs" />
+    <Compile Include="Assets\C# Scirpts\Back to menu.cs" />
+    <Compile Include="Assets\C# Scirpts\MenuButton.cs" />
+    <Compile Include="Assets\C# Scirpts\GameOverBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -65,6 +68,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\Tiles\Sprite-Grayscale.shader" />
      <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
