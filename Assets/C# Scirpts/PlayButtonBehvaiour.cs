@@ -12,9 +12,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class PlayButtonBehvaiour : MonoBehaviour
 {
-    
+    public AudioSource audio;
     public void onButtonClick()
     {
+        audio.Play();
         SceneManager.LoadScene("Game");
     }
 }

@@ -12,8 +12,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class InstructionButtonBehaviour : MonoBehaviour
 {
+    public AudioSource audio;
     public void onButtonClick()
     {
+        audio.Play();
         SceneManager.LoadScene("Instruction");
     }
 }

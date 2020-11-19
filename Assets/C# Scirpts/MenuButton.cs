@@ -13,8 +13,10 @@ using UnityEngine.SceneManagement;
 
 public class MenuButton : MonoBehaviour
 {
+    public AudioSource audio;
     public void onButtonClick()
     {
+        audio.Play();
         SceneManager.LoadScene("Menu");
     }
 }

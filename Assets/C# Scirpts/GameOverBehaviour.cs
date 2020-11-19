@@ -13,8 +13,10 @@ using UnityEngine.SceneManagement;
 
 public class GameOverBehaviour : MonoBehaviour
 {
+    public AudioSource audio;
     public void onButtonClick()
     {
+        audio.Play();
         SceneManager.LoadScene("GameOver");
     }
 }
